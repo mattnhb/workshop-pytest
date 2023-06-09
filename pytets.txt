@@ -1,0 +1,6 @@
+[pytest]
+addopts = --doctest-modules
+markers =
+    integers: marks tests related to integer manipulation
+    strings: marks tests related to string manipulation
+    mocks: marks tests related to mocking
